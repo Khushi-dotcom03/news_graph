@@ -1,0 +1,8 @@
+networkx>=3.2
+matplotlib>=3.8
+transformers>=4.40
+torch>=2.2
+requests>=2.31
+python-dotenv>=1.0
+streamlit>=1.50
+plotly>=5.20

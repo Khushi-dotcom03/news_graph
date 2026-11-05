@@ -1,0 +1,2650 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_article" attr.type="string" />
+  <key id="d7" for="edge" attr.name="id" attr.type="string" />
+  <key id="d6" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d5" for="node" attr.name="event_type" attr.type="string" />
+  <key id="d4" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d3" for="node" attr.name="name" attr.type="string" />
+  <key id="d2" for="node" attr.name="text" attr.type="string" />
+  <key id="d1" for="node" attr.name="language" attr.type="string" />
+  <key id="d0" for="node" attr.name="node_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="article:article_1">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Tata Motors announced a new factory in Gujarat.</data>
+    </node>
+    <node id="entity:org:tata_motors">
+      <data key="d0">entity</data>
+      <data key="d3">Tata Motors</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:gujarat">
+      <data key="d0">entity</data>
+      <data key="d3">Gujarat</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="event:factory:article:article_1">
+      <data key="d0">event</data>
+      <data key="d3">Factory announcement</data>
+      <data key="d5">FACTORY_ANNOUNCEMENT</data>
+    </node>
+    <node id="article:article_2">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">टाटा मोटर्स ने गुजरात में एक नए कारखाने की घोषणा की।</data>
+    </node>
+    <node id="event:factory:article:article_2">
+      <data key="d0">event</data>
+      <data key="d3">Factory announcement</data>
+      <data key="d5">FACTORY_ANNOUNCEMENT</data>
+    </node>
+    <node id="article:article_3">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Tata Motors opened a new office in Gujarat.</data>
+    </node>
+    <node id="article:2e124fea5d534725fa4c6a51bf6532b9">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Minister Solomon concludes visit to Germany to advance Canada’s international AI partnerships The Minister’s engagements in Berlin focused on advancing AI sovereignty and deepening Canada’s cooperation with its European partners BERLIN, Nov. 3, 2026 /CNW/ — Artificial intelligence (AI) is changing how countries innovate, compete, and build economic resilience. As Canada strengthens its AI capabilities at home, working with trusted international partners is essential to supporting responsible […] The post Minister Solomon concludes visit to Germany to advance Canada’s international AI partnerships appeared first on CBNC. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:solomon">
+      <data key="d0">entity</data>
+      <data key="d3">Solomon</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:germany">
+      <data key="d0">entity</data>
+      <data key="d3">Germany</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:canada">
+      <data key="d0">entity</data>
+      <data key="d3">Canada</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:berlin">
+      <data key="d0">entity</data>
+      <data key="d3">Berlin</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:berlin">
+      <data key="d0">entity</data>
+      <data key="d3">BERLIN</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:cbnc">
+      <data key="d0">entity</data>
+      <data key="d3">CBNC</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:db3cd5d11a45b24c423ddd42ab37811f">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">US Midterm Elections 2026 | Democrats Target Red Districts In Indiana &amp; Kentucky | Trump | N18G As election night unfolds, Democrats are eyeing competitive races in traditionally Republican districts, with Indiana and Kentucky emerging as key battlegrounds. Voter turnout, rural support and shifting political loyalties could influence results across these red-leaning areas. CNN TV News18 Mobile App - https://onelink.to/desc-youtube ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:indiana">
+      <data key="d0">entity</data>
+      <data key="d3">Indiana</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:kentucky">
+      <data key="d0">entity</data>
+      <data key="d3">Kentucky</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:per:trump">
+      <data key="d0">entity</data>
+      <data key="d3">Trump</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:cnn_tv_news18">
+      <data key="d0">entity</data>
+      <data key="d3">CNN TV News18</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:ebf73356bccbbd035b8d607c89f092dd">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Ollie Watkins’ wife Ellie returns to UK with children amid Saudi Arabia security fears after £50M transfer Ollie Watkins’ wife, Ellie, has returned to the UK with their two children months after his reported £50 million move from Aston Villa to Al-Hilal. Citing security concerns and regional conflict in Saudi Arabia, she said the family would stay in Britain until conditions improve. Watkins, meanwhile, continues his career in Riyadh, having recorded six goals and five assists in 10 appearances. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:ollie_watkins">
+      <data key="d0">entity</data>
+      <data key="d3">Ollie Watkins</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:ellie">
+      <data key="d0">entity</data>
+      <data key="d3">Ellie</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:uk">
+      <data key="d0">entity</data>
+      <data key="d3">UK</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:saudi_arabia">
+      <data key="d0">entity</data>
+      <data key="d3">Saudi Arabia</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:aston_villa">
+      <data key="d0">entity</data>
+      <data key="d3">Aston Villa</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:al_hilal">
+      <data key="d0">entity</data>
+      <data key="d3">Al-Hilal</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:britain">
+      <data key="d0">entity</data>
+      <data key="d3">Britain</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:per:watkins">
+      <data key="d0">entity</data>
+      <data key="d3">Watkins</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:riyadh">
+      <data key="d0">entity</data>
+      <data key="d3">Riyadh</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="article:06c58f44e9d2faae6b507fd82b1a9601">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">US has no immediate plan to strike Iran, Trump tells FT In an interview with the FT on Tuesday, Trump suggested he was content with the state of the stand-off with Iran. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:us">
+      <data key="d0">entity</data>
+      <data key="d3">US</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:iran">
+      <data key="d0">entity</data>
+      <data key="d3">Iran</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:ft">
+      <data key="d0">entity</data>
+      <data key="d3">FT</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:b8e3aa49bf7cad86318f83f8ce69f579">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Booking Holdings Files Form 8-K on Third-Quarter Results The SEC index lists 28 documents, including an earnings-release exhibit and XBRL files. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:booking_holdings">
+      <data key="d0">entity</data>
+      <data key="d3">Booking Holdings</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:sec">
+      <data key="d0">entity</data>
+      <data key="d3">SEC</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:c0c493f4fafbd2a6751cb8b530ccf499">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Mixedbread's Aamir Shakir says better search took a hedge fund's AI agent from 36% to 98% accuracy Mixedbread founder Aamir Shakir says the real bottleneck for enterprise AI agents is access to data, not model intelligence. An unnamed hedge fund's agent answered correctly only 36% of the time on its own documents, as graded by human experts. After the fund switched to Mixedbread's search stack, a... Article link ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:mixedbread">
+      <data key="d0">entity</data>
+      <data key="d3">Mixedbread</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:aamir_shakir">
+      <data key="d0">entity</data>
+      <data key="d3">Aamir Shakir</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:e599d4664e17e0ea867c2e0879f32d51">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Saba Capital Management buys $12,190 of Gabelli Healthcare Trust ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:saba_capital_management">
+      <data key="d0">entity</data>
+      <data key="d3">Saba Capital Management</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:gabelli_healthcare_trust">
+      <data key="d0">entity</data>
+      <data key="d3">Gabelli Healthcare Trust</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:ec15c85f6a0029d6465b878992e3254c">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Roku director Neil Hunt sells $312,346 in company stock ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:roku">
+      <data key="d0">entity</data>
+      <data key="d3">Roku</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:neil_hunt">
+      <data key="d0">entity</data>
+      <data key="d3">Neil Hunt</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:3a4ae9df23b265c17716d40b1c1a7807">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Mishandling protests to planting drugs and death in custody: Punjab Police faces credibility test Three bodies await cremation amid protests, while police personnel face allegations ranging from drug trafficking and consumption to planting narcotics to frame an individual ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:punjab_police">
+      <data key="d0">entity</data>
+      <data key="d3">Punjab Police</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:3c4b2af5187d86391668c2a8f4b86493">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Finanshels Pairs AI Bookkeeping With CFOs for UAE Scaleups ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:finanshels_pairs_ai">
+      <data key="d0">entity</data>
+      <data key="d3">Finanshels Pairs AI</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:uae">
+      <data key="d0">entity</data>
+      <data key="d3">UAE</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="article:cdc0fbecf5beeee762fffa7ea1776160">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">राजस्थान में रेलवे ट्रैक पर ब्लास्ट:45 मिनट पहले पैसेंजर ट्रेन गुजरी थी; 200 मीटर दूर तक धमाका सुनाई दिया, 4 ट्रेन कैंसिल श्रीगंगानगर जिले के अनूपगढ़-सूरतगढ़ रेलवे लाइन पर मंगलवार रात 9.45 बजे ब्लास्ट हो गया। धमाके से पहले रात 9 बजे इस ट्रेक से पैसेंजर ट्रेन गुजरी थी। धमाके की आवाज 200 मीटर दूर तक सुनाई दी। ब्लास्ट के कारण पटरी के नीचे लगे सीमेंट के दो ब्लॉक पूरी तरह से टूट गए। पटरियों के बीच 2 फीट गहरा गड्ढा हो गया। ब्लास्ट की जानकारी के बाद आईबी, सीआईडी और एंटी टेरेरिस्ट स्क्वॉड के अधिकारी भी मौके पर पहुंचे। बुधवार सुबह 9 बजे तक इस लाइन पर ट्रैफिक बंद किया गया है। बुधवार को इस रूट की 4 ट्रेन कैंसिल की गईं। धमाके के बाद की 3 PHOTOS ATS अधिकारी मौके पर पहुंचे रात करीब 2 बजे आईबी और सीआईडी की टीम मौके पर पहुंची। सवा दो बजे एटीएस के एडीशनल एसपी सुरेंद्र कुमार मौके पर पहुंचे। श्रीगंगानगर एसपी हरिशंकर ने कहा- ब्लास्ट की तीव्रता कितनी थी और रेलवे ट्रैक को नुकसान पहुंचाने के पीछे किसका हाथ है, इसकी जांच की जा रही है। एफएसएल की टीम यहां से सैंपल लेकर जांच करेगी। ग्रामीणों ने सुना धमाका, रात 11 बजे पहुंची पुलिस रामसिंहपुर सीआई राम प्रताप ने बताया- मंगलवार रात 8:30 बजे अनूपगढ़ जंक्शन से सूरतगढ़ की ओर जाने वाली ट्रेन रवाना हुई थी। करीब 9 बजे ट्रेन 50 जीबी गांव के पास आस-पास पहुंची। ट्रेन के गुजरने के करीब 45 मिनट बाद पटरी पर धमाका हुआ। धमाके की आवाज सुनकर 200 मीटर दूर बसे ढाणी में रहने वाले ग्रामीण पटरियों के पास पहुंचे थे। उनकी सूचना के बाद रात 11 बजे पुलिस व दूसरे अधिकारी मौके पर पहुंचे थे। अक्टूबर में सुरक्षा एजेंसियों ने पकड़ा था विस्फोटक पाकिस्तान बॉर्डर से सटे श्रीगंगानगर जिले के रावला मंडी क्षेत्र में भारी मात्रा में हथियार और विस्फोटक सामग्री पकड़ी है। इनमें 7.750 किलोग्राम विस्फोटक (RDX), दो जिगाना पिस्टल, चार मैगजीन और करीब 867 कारतूस हैं। 5 बैटरी और दो रिमोट भी हैं। ये हथियार सोमवार रात पाकिस्तान से ड्रोन के जरिए गिराए गए। पिस्टल पर 'Made in Turkey' लिखा हुआ है। आशंका है कि यह किसी बड़ी साजिश की तैयारी थी। राजस्थान में पहले भी हुईं ट्रेन बेपटरी करने की साजिश 19 जनवरी, 2026: 9 महीने पहले जयपुर में विदेशी पर्यटकों से भरी महाराजा एक्सप्रेस को पलटाने की साजिश हुई। साजिशकर्ताओं ने रेलवे ट्रैक पर लोहे की एंगल रख दिए थे। लोको पायलट ने समय रहते ट्रेन रोक दी, जिससे बड़ा हादसा टल गया। (पूरी खबर पढ़ें) 07 अप्रैल, 2026: चित्तौड़गढ़ में इसी साल 7 अप्रैल को रात करीब 2.37 बजे रेल ट्रैक पर लोहे की पटरी रखकर मालगाड़ी को डिरेल करने की कोशिश की गई। ओराई नदी की पुलिया पर रखे 17 फीट टुकड़े से इंजन टकराया, लेकिन वह दूर गिर गया और हादसा टल गया। (पूरी खबर पढ़ें) 23 अगस्त, 2024 :दो साल पहले पाली में हाई स्पीड ट्रेन वंदे भारत को बेपटरी करने की साजिश का मामला सामने आया था। 23 अगस्त की रात को अज्ञात व्यक्ति ने ट्रैक पर सीमेंट का ब्लॉक रख दिया था। रात करीब साढ़े 8 बजे अहमदाबाद से जोधपुर आ रही वंदे भारत ट्रेन इस सीमेंट के ब्लॉक से टकरा गई थी। (पूरी खबर पढ़ें) ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:र_जस_थ_न">
+      <data key="d0">entity</data>
+      <data key="d3">राजस्थान</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:ट_र">
+      <data key="d0">entity</data>
+      <data key="d3">ट्र</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:श_र_ग_ग_नगर_ज_ल">
+      <data key="d0">entity</data>
+      <data key="d3">श्रीगंगानगर जिले</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:अन_प">
+      <data key="d0">entity</data>
+      <data key="d3">अनूप</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:गढ">
+      <data key="d0">entity</data>
+      <data key="d3">गढ़</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:स_रत">
+      <data key="d0">entity</data>
+      <data key="d3">सूरत</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:प_स">
+      <data key="d0">entity</data>
+      <data key="d3">पैसे</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ट_र_न">
+      <data key="d0">entity</data>
+      <data key="d3">ट्रेन</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:आईब">
+      <data key="d0">entity</data>
+      <data key="d3">आईबी</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:स_आईड">
+      <data key="d0">entity</data>
+      <data key="d3">सीआईडी</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ए_ट_ट_र_र_स_ट_स_क_व_ड">
+      <data key="d0">entity</data>
+      <data key="d3">एंटी टेरेरिस्ट स्क्वॉड</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:स_र_द_र_क_म_र">
+      <data key="d0">entity</data>
+      <data key="d3">सुरेंद्र कुमार</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:नगर">
+      <data key="d0">entity</data>
+      <data key="d3">नगर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:per:श_कर">
+      <data key="d0">entity</data>
+      <data key="d3">शंकर</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:र_म_प_रत_प">
+      <data key="d0">entity</data>
+      <data key="d3">राम प्रताप</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:गढ_ज">
+      <data key="d0">entity</data>
+      <data key="d3">गढ़ ज</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:स_रतगढ">
+      <data key="d0">entity</data>
+      <data key="d3">सूरतगढ़</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ढ">
+      <data key="d0">entity</data>
+      <data key="d3">ढा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:प_क_स_त_न">
+      <data key="d0">entity</data>
+      <data key="d3">पाकिस्तान</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:र_वल_म_ड">
+      <data key="d0">entity</data>
+      <data key="d3">रावला मंडी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:व_स_फ_ट">
+      <data key="d0">entity</data>
+      <data key="d3">विस्फोट</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ज_ग_न_प">
+      <data key="d0">entity</data>
+      <data key="d3">जिगाना पि</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:म">
+      <data key="d0">entity</data>
+      <data key="d3">मै</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:50b865f8662f5f9ebeae1dafcf3bba9a">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">डीग में परिक्रमा के दौरान अनोखी परंपरा: पशुओं और बंदरों के लिए चने, मूंगफली और सब्जियां दान करते हैं श्रद्धालु Deeg Rajasthan Parikrama unique tradition: राजस्थान के डीग में श्रीनाथ जी मंदिर के पास परिक्रमा के दौरान जीव सेवा की अनोखी परंपरा देखने को मिलती है. श्रद्धालु अपनी परिक्रमा यात्रा के साथ बेजुबान पशु-पक्षियों और बंदरों के लिए चने, मूंगफली और हरी सब्जियों का दान करते हैं. स्थानीय मान्यताओं के अनुसार, यात्रा के दौरान जीवों को भोजन कराने से परिक्रमा का पुण्य बढ़ता है और यात्रा सफल मानी जाती है. यह परंपरा भारतीय संस्कृति में पूजा-पाठ के साथ जीव दया, संवेदनशीलता और प्रकृति प्रेम के सुंदर संदेश को जीवंत रखती है. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:ड_ग">
+      <data key="d0">entity</data>
+      <data key="d3">डीग</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:श_र_न_थ_ज_म_द_र">
+      <data key="d0">entity</data>
+      <data key="d3">श्रीनाथ जी मंदिर</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:भ_रत_य">
+      <data key="d0">entity</data>
+      <data key="d3">भारतीय</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:प_रक_त_प_र_म">
+      <data key="d0">entity</data>
+      <data key="d3">प्रकृति प्रेम</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:874a2772f89073c76c730a825cf9446e">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">टैरो राशिफल, 4 नवंबर 2026 : जानिए कैसा रहेगा आज आपका दिन… मेष टैरो राशिफल: पुराने ग्राहक से मिल सकता है काम टैरो कार्ड्स: Knight of Pentacles, Five of Wands Reversed, Queen of Cups आज काम में तेजी दिखाने से ज्यादा जरूरी होगा कि आप अपने काम को सही तरीके से पूरा करें। किसी सहकर्मी या कारोबारी साझेदार के साथ चल रही खींचतान कम हो सकती […] ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:ट_र_र_श_फल">
+      <data key="d0">entity</data>
+      <data key="d3">टैरो राशिफल</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:म_ष_ट_र_र_श_फल">
+      <data key="d0">entity</data>
+      <data key="d3">मेष टैरो राशिफल</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ट_र_क_र_ड_स">
+      <data key="d0">entity</data>
+      <data key="d3">टैरो कार्ड्स</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:8c4be5be77ff31aad8ead14e6868b348">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">सुर्खियां: दिल्ली की हवा में 'जहर'; इस्राइल-अमेरिका में चुनाव नतीजे पर नजर; भारत में तीन स्वदेशी एआई मॉडल पेश सुर्खियां: दिल्ली की हवा में 'जहर'; इस्राइल-अमेरिका में चुनाव नतीजे पर नजर; भारत में तीन स्वदेशी एआई मॉडल पेश- Today Top News Delhi pollution US Israel poll result IND v NZ ODI national World cinema polity crime headlines ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:द_ल_ल">
+      <data key="d0">entity</data>
+      <data key="d3">दिल्ली</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:अ">
+      <data key="d0">entity</data>
+      <data key="d3">अ</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क">
+      <data key="d0">entity</data>
+      <data key="d3">िका</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:भ_रत">
+      <data key="d0">entity</data>
+      <data key="d3">भारत</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:स_वद_श_एआई_म_डल">
+      <data key="d0">entity</data>
+      <data key="d3">स्वदेशी एआई मॉडल</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:अम_र_क">
+      <data key="d0">entity</data>
+      <data key="d3">अमेरिका</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="article:77499cae904b24e65352d19b56c4a493">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">मोदी-CEC के विवादित वीडियो पर अमित जोगी पर FIR:शादी-हनीमून के दृश्य दिखाए, विवाद बढ़ने पर पोस्ट डिलीट कर माफी मांगी जनता कांग्रेस छत्तीसगढ़ (JCC-J) के प्रदेश अध्यक्ष अमित जोगी ने पीएम मोदी और मुख्य चुनाव आयुक्त (CEC) ज्ञानेश कुमार को लेकर आपत्तिजनक वीडियो पोस्ट किया था। जिसमें दोनों की सांकेतिक शादी और हनीमून को दिखाया था। अब इसे लेकर भारतीय जनता पार्टी (BJP) ने विरोध जताया है। भाजपा नेताओं और कार्यकर्ताओं ने रायपुर के सिविल लाइंस थाने पहुंचकर अमित जोगी के खिलाफ शिकायत करते हुए FIR दर्ज कराई है। जानिए क्या है पूरा मामला दरअसल, अमित जोगी ने कथित वोट चोरी के मुद्दे पर पीएम मोदी और मुख्य चुनाव आयुक्त ज्ञानेश कुमार पर निशाना साधते हुए एक वीडियो सोशल मीडिया पर पोस्ट किया था। वीडियो में दोनों के मुखौटे पहने किरदारों को दिखाया गया था। इसके बाद 'ज्ञानू-जानू की शादी' के नाम से सांकेतिक शादी और हनीमून का दृश्य दिखाया गया। वीडियो सामने आने के बाद सोशल मीडिया पर इसकी आलोचना शुरू हो गई। विवाद बढ़ा तो डिलीट किया वीडियो, मांगी माफी वीडियो को लेकर विवाद बढ़ने के बाद अमित जोगी ने इसे अपने सोशल मीडिया अकाउंट से हटा दिया। उन्होंने पोस्ट के जरिए माना कि अपनी बात रखने का तरीका सही नहीं था। जोगी ने लिखा कि वे जिस संदेश को देना चाहते थे, उसे दूसरे तरीके से भी रखा जा सकता था। उन्होंने कहा कि खुद का मजाक उड़ाकर अपनी बात कहना अलग है, लेकिन किसी निजी रिश्ते या स्पेस को व्यंग्य का हिस्सा बनाना ऐसी सीमा है, जिसे वे पार नहीं करना चाहते। इसी वजह से पोस्ट हटा दी गई। जिन लोगों की भावनाएं आहत हुई हैं, उनसे उन्होंने माफी भी मांगी। 24 घंटे में कार्रवाई की मांग विधायक राजेश मूणत ने कहा कि अमित जोगी ने देश के प्रधानमंत्री और चुनाव आयुक्त का किरदार निभाकर बेडरूम के दृश्य दिखाए। इसकी पटकथा लिखने वाले, वीडियो बनाने वाले कैमरामैन से लेकर इसमें रोल करने वालों के खिलाफ हमने शिकायत की है। हम सभी के मन में आक्रोश है। पुलिस प्रशासन को ज्ञापन दिया है और 24 घंटे में कार्रवाई की मांग की है। …………….. इससे जुड़ी खबर भी पढ़ें… जग्गी हत्याकांड...अजीत जोगी के बेटे अमित जोगी दोषी करार: 3 हफ्ते के अंदर करना होगा सरेंडर, CBI के साक्ष्य के आधार पर हाईकोर्ट का फैसला छत्तीसगढ़ के बहुचर्चित रामावतार जग्गी हत्याकांड में हाईकोर्ट ने पूर्व मुख्यमंत्री अजीत जोगी के बेटे अमित जोगी को दोषी करार दिया है। चीफ जस्टिस रमेश सिन्हा की डिवीजन बेंच ने उन्हें तीन सप्ताह के भीतर सरेंडर करने का आदेश दिया है। CBI के साक्ष्य को स्वीकार करते हुए फैसला सुनाया गया है। पढ़ें पूरी खबर… ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:अम_त_ज">
+      <data key="d0">entity</data>
+      <data key="d3">अमित जो</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:जनत_क_ग_र_स_छत_त_सगढ">
+      <data key="d0">entity</data>
+      <data key="d3">जनता कांग्रेस छत्तीसगढ़</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:अम_त_ज_ग">
+      <data key="d0">entity</data>
+      <data key="d3">अमित जोगी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:प_एम_म_द">
+      <data key="d0">entity</data>
+      <data key="d3">पीएम मोदी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:च_न_व">
+      <data key="d0">entity</data>
+      <data key="d3">चुनाव</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:ज_ञ_न_श_क_म_र">
+      <data key="d0">entity</data>
+      <data key="d3">ज्ञानेश कुमार</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:भ_रत_य_जनत_प_र_ट">
+      <data key="d0">entity</data>
+      <data key="d3">भारतीय जनता पार्टी</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:र_यप_र">
+      <data key="d0">entity</data>
+      <data key="d3">रायपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:per:ग">
+      <data key="d0">entity</data>
+      <data key="d3">गी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:र_ज_श_म_णत">
+      <data key="d0">entity</data>
+      <data key="d3">राजेश मूणत</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:जग_ग_हत_य_क_ड">
+      <data key="d0">entity</data>
+      <data key="d3">जग्गी हत्याकांड</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:अज_त_ज_ग">
+      <data key="d0">entity</data>
+      <data key="d3">अजीत जोगी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:b5d1e4a314352634c796ef4093e9b3e5">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">*अखिलेश यादव का ऐलान वह 2027 का विधानसभा चुनाव नहीं लड़ेंगे* समाजवादी पार्टी के मुखिया अखिलेश यादव ने ऐलान किया है कि वह 2027 का विधानसभा चुनाव नहीं लड़ेंगे. वह सीधे सीएम पद की शपथ लेंगे. दरअसल, अखिलेश यादव मंगलवार को वाराणसी आए हुए थे. इस दौरान पत्रकारों ने उनसे काशी की किसी सीट से विधानसभा चुनाव लड़ने को लेकर सवाल किया तो उन्होंने कहा कि […] ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:अख_ल_श_य_दव">
+      <data key="d0">entity</data>
+      <data key="d3">अखिलेश यादव</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:व_ध_नसभ">
+      <data key="d0">entity</data>
+      <data key="d3">विधानसभा</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:सम_जव_द_प_र_ट">
+      <data key="d0">entity</data>
+      <data key="d3">समाजवादी पार्टी</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:व_र_णस">
+      <data key="d0">entity</data>
+      <data key="d3">वाराणसी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_श">
+      <data key="d0">entity</data>
+      <data key="d3">काशी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="article:ab5ee9393164df65996432a85098685e">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">धनतेरस पर सोना-चांदी ही नहीं, शादी के गहनों की भी धूम! लाइटवेट ज्वेलरी की बढ़ी मांग, जानिए क्या खरीदें और क्या नहीं दीपावली और धनतेरस के मौके पर पटना में सोने-चांदी के साथ शादी-विवाह के लिए भी गहनों की खरीदारी तेज हो गई है। सोने की ऊंची कीमतों के बीच लाइटवेट ज्वेलरी की मांग बढ़ी है, हालांकि नियमित इस्तेमाल के लिए सर्राफा संघ ने इसे लेकर सावधानी बरतने की सलाह दी है। ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:द_प_वल">
+      <data key="d0">entity</data>
+      <data key="d3">दीपावली</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:पटन">
+      <data key="d0">entity</data>
+      <data key="d3">पटना</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:सर_र_फ_स_घ">
+      <data key="d0">entity</data>
+      <data key="d3">सर्राफा संघ</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:4dc134f19e20e271799d8be821399675">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">छोटे-छोटे रोल निभाकर बनाई बड़ी पहचान, मां-दादी बनकर छोड़ी गहरी छाप, रीता भादुड़ी की अनूठी जिंदगी दिग्गज एक्ट्रेस रीता भादुड़ी ने फिल्मों और टीवी में मां, बहन और दादी के यादगार किरदार निभाए. 4 नवंबर 1955 को जन्मीं रीता ने फिल्म 'जूली' से पहचान बनाई और 'राजा' के लिए फिल्मफेयर जीता. उन्होंने अपने पूरे करियर में करीब 70 फिल्मों और 30 टीवी शोज में यादगार रोल निभाए थे. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:र_त_भ_द_ड">
+      <data key="d0">entity</data>
+      <data key="d3">रीता भादुड़ी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:र">
+      <data key="d0">entity</data>
+      <data key="d3">री</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:87dabb9ad572dbbe46e80b7a4bdf6bec">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">भाजपा राष्ट्रीय अध्यक्ष आज गोरखपुर में निकालेंगे पदयात्रा:मुख्यमंत्री व पदेश अध्यक्ष भी साथ होंगे; 1 लाख लोगों को लाने की तैयारी भाजपा के लोकतंत्र बचाओ, अराजकता हटाओ अभियान के क्रम में बुधवार को पदयात्रा का आयोजन किया जाएगा। मुख्य अतिथि के रूप में राष्ट्रीय अध्यक्ष नितिन नवीन उपस्थित रहेंगे। उनके साथ मुख्यमंत्री योगी आदित्यनाथ एवं प्रदेश अध्यक्ष पंकज चौधरी उपस्थित रहेंगे। महाराणा प्रताप इंटर कालेज में पहले जनसभा होगी, उसके बाद वहीं से पदयात्रा निकाली जाएगी। यह यात्रा गोलघर स्थित काली मंदिर के पास स्थापित सरदार वल्लभभाई पटेल की प्रतिमा के पास संपन्न होगी। भाजपा नेता यहां सरदार पटेल की प्रतिमा पर माल्न्यार्पण करेंगे। इस पदयात्रा के बहाने भाजपा शहर में लगभग 1 लाख लोगों को बुलाने की तैयारी में है। दोपहर 12 बजे एमपी इंटर कालेज से निकलेगी, दिनभर चली तैयारी भाजपा की ओर से 4 नवंबर को आयोजित होने वाले लोकतंत्र बचाओ, अराजकता हटाओ पदयात्रा में लगभग 50 हजार लोगों के शामिल होने की उम्मीद है। गोरखपुर क्षेत्र से कार्यकर्ताओं को इसमें बुलाया गया है। पार्टी के राष्ट्रीय अध्यक्ष नितिन नवीन मुख्य अतिथि के रूप में उपस्थित रहेंगे। मुख्यमंत्री योगी आदित्यनाथ भी इस पदयात्रा में शामिल होने के लिए बुधवार की सुबह ही पहुंचेंगे। उनके साथ ही प्रदेश अध्यक्ष पंकज चौधरी भी इस पदयात्रा में शामिल होंगे। पदयात्रा लगभग 2 किलोमीटर की होगी। इसका समापन गोलघर काली मंदिर स्थित सरदार पटेल की प्रतिमा के पास होगा। भाजपा नेता सरदार पटेल की प्रतिमा पर माल्यार्पण करेंगे। राष्ट्रीय अध्यक्ष नितिन नवीन सुबह 11 बजे कार्यक्रम स्थल पर पहुंचेंगे। उनसे पहले लगभग सुबह 9 बजे मुख्यमंत्री योगी आदित्यनाथ का आगमन होगा। एमपी इंटर कालेज में बने स्थायी मंच पर सभी नेता मौजूद रहेंगे। यहां राष्ट्रीय अध्यक्ष, मुख्यमंत्री एवं प्रदेश अध्यक्ष उपस्थित कार्यकर्ताओं को संबोधित करेंगे। लोगों को सभा स्थल पर लाने के लिए बसों की व्यवस्था की गई है। दिनभर होती रही तैयारी पदयात्रा को लेकर मंगलवार को पूरे दिन तैयारी होती रही। एमपी इंटर कालेज के मैदान में बारिश के कारण पानी लग गया था। मिट्‌टी डालकर उस स्थान को चलने लायक बनाया गया है। स्थायी मंच के सामने की ओर टेंट लगाए गए हैं। भाजपा के पदाधिकारी दिनभर वहां मौजूद रहे। वरिष्ठ पदाधिकारी तैयारियों का जायजा लेने के लिए आते-जाते रहे। अभूतपूर्व भीड़ होगी, कार्यकर्ताओं से भरी रहेंगी सड़कें भाजपा के क्षेत्रीय अध्यक्ष विनोद राय ने बताया कि पदयात्रा के दौरान अभूतपूर्व भीड़ होगी। गोरखपुर क्षेत्र के सभी 12 संगठनात्मक जिलों से कार्यकर्ता बुलाए गए हैं। सुबह 10 बजे तक सभी कार्यक्रम स्थल पर पहुंच जाएंगे। कार्यकर्ताओं में इस कार्यक्रम को लेकर काफी उत्साह है। राष्ट्रीय अध्यक्ष, मुख्यमंत्री एवं प्रदेश अध्यक्ष यहां एक जनसभा को संबोधित करेंगे, उसके बाद पदयात्रा शुरू होगी। कल शहर की सभी सड़कों पर भाजपा के ही कार्यकर्ता नजर आएंगे। राष्ट्रीय नेतृत्व आता है तो कोर कमेटी की बैठक होती है। गोरखपुर में भी प्रदेश कोर कमेटी की बैठक रखी गई है। ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:भ_जप_र_ष_ट_र_य_अध_यक_ष">
+      <data key="d0">entity</data>
+      <data key="d3">भाजपा राष्ट्रीय अध्यक्ष</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:ग_रखप_र">
+      <data key="d0">entity</data>
+      <data key="d3">गोरखपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:प">
+      <data key="d0">entity</data>
+      <data key="d3">प</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:भ_जप">
+      <data key="d0">entity</data>
+      <data key="d3">भाजपा</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ल_कत_त_र_बच_ओ">
+      <data key="d0">entity</data>
+      <data key="d3">लोकतंत्र बचाओ</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:अर_जकत_हट_ओ">
+      <data key="d0">entity</data>
+      <data key="d3">अराजकता हटाओ</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:र_ष_ट_र_य">
+      <data key="d0">entity</data>
+      <data key="d3">राष्ट्रीय</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:अध_यक_ष">
+      <data key="d0">entity</data>
+      <data key="d3">अध्यक्ष</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:न_त_न_नव_न">
+      <data key="d0">entity</data>
+      <data key="d3">नितिन नवीन</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:म_ख_यम_त_र_य_ग_आद_त_यन_थ">
+      <data key="d0">entity</data>
+      <data key="d3">मुख्यमंत्री योगी आदित्यनाथ</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:प_रद_श">
+      <data key="d0">entity</data>
+      <data key="d3">प्रदेश</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:प_कज_च_धर">
+      <data key="d0">entity</data>
+      <data key="d3">पंकज चौधरी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:मह_र_ण_प_रत_प_इ_टर_क_ल_ज">
+      <data key="d0">entity</data>
+      <data key="d3">महाराणा प्रताप इंटर कालेज</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:ग_लघर">
+      <data key="d0">entity</data>
+      <data key="d3">गोलघर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:क_ल_म_द_र">
+      <data key="d0">entity</data>
+      <data key="d3">काली मंदिर</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:सर">
+      <data key="d0">entity</data>
+      <data key="d3">सर</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:वल_लभभ_ई_पट_ल">
+      <data key="d0">entity</data>
+      <data key="d3">वल्लभभाई पटेल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:पट_ल">
+      <data key="d0">entity</data>
+      <data key="d3">पटेल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:भ_जप">
+      <data key="d0">entity</data>
+      <data key="d3">भाजपा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:एमप_इ_टर_क_ल_ज">
+      <data key="d0">entity</data>
+      <data key="d3">एमपी इंटर कालेज</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ल_कत_त_र_बच_ओ_अर_जकत_हट_ओ">
+      <data key="d0">entity</data>
+      <data key="d3">लोकतंत्र बचाओ, अराजकता हटाओ</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:म_ख_यम_त_र">
+      <data key="d0">entity</data>
+      <data key="d3">मुख्यमंत्री</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:य_ग_आद_त_यन_थ">
+      <data key="d0">entity</data>
+      <data key="d3">योगी आदित्यनाथ</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:ग_ल">
+      <data key="d0">entity</data>
+      <data key="d3">गोल</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:घर_क_ल_म_द_र">
+      <data key="d0">entity</data>
+      <data key="d3">घर काली मंदिर</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:सरद_र_पट_ल">
+      <data key="d0">entity</data>
+      <data key="d3">सरदार पटेल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:र_ष_ट_र_य_अध_यक_ष">
+      <data key="d0">entity</data>
+      <data key="d3">राष्ट्रीय अध्यक्ष</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:प_रद_श_अध_यक_ष">
+      <data key="d0">entity</data>
+      <data key="d3">प्रदेश अध्यक्ष</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:म_च">
+      <data key="d0">entity</data>
+      <data key="d3">मंच</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:व_न_द_र_य">
+      <data key="d0">entity</data>
+      <data key="d3">विनोद राय</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:0f643db45db10bdbf7aa5b64014df82a">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">अमेरिका में कब आएंगे मिडटर्म चुनाव के नतीजे, भारत में किस समय से दिखेंगे रुझान | यहां जानिए अमेरिका में मिडटर्म चुनाव के लिए मतदान मंगलवार, 3 नवंबर को शुरू हुआ और भारतीय समय के मुताबिक बुधवार सुबह तक जारी रहे। सबसे पहले सुबह 4:30 बजे कुछ मतदान केंद्र बंद हुए। लेकिन सभी सीटों के नतीजे एक साथ नहीं आएंगे। डाक मतपत्रों और करीबी मुकाबलों के कारण कुछ राज्यों में मतगणना कई दिनों तक चल सकती है। ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:म_डटर_म_च_न_व">
+      <data key="d0">entity</data>
+      <data key="d3">मिडटर्म चुनाव</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:म_ड">
+      <data key="d0">entity</data>
+      <data key="d3">मिड</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:र_म_च_न_व">
+      <data key="d0">entity</data>
+      <data key="d3">र्म चुनाव</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ड_क_मतपत_र">
+      <data key="d0">entity</data>
+      <data key="d3">डाक मतपत्र</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:88f239ebd11622bfb85539973d9edb53">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Why a Coconut Is Broken at Temples and Before Every Auspicious Start A coconut gets smashed before a puja, a new business, a wedding, a journey. The gesture is so common it barely draws a glance anymore. But the tradition carries a precise meaning that most people who perform it have never been told, one that connects the fruit's anatomy to an idea about the self that runs through much of Hindu thought. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="article:36ede2a72fde1ccdcaf0880558eab738">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">PM inaugurates Pune Metro Line 3 ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:pune_metro_line">
+      <data key="d0">entity</data>
+      <data key="d3">Pune Metro Line</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:a0daa56fff9e131813b8412320e55e16">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Amgen Q3 Revenue Climbs 8% as Prolia and XGEVA Sales Fall GAAP diluted earnings per share rose 19%, while free cash flow fell to $3.7 billion from $4.2 billion a year earlier. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:amgen">
+      <data key="d0">entity</data>
+      <data key="d3">Amgen</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:prolia">
+      <data key="d0">entity</data>
+      <data key="d3">Prolia</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:xgeva">
+      <data key="d0">entity</data>
+      <data key="d3">XGEVA</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:b5a10d7b33e989148d64287f8254df79">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">BJP to Reach Out to Minority Areas While Upholding Core Ideology, Says Assam CM Assam CM Sarma vows BJP outreach in minority areas without ideological compromise, reiterates stand against child marriage and polygamy, and mocks Rahul Gandhi. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:bjp">
+      <data key="d0">entity</data>
+      <data key="d3">BJP</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:assam">
+      <data key="d0">entity</data>
+      <data key="d3">Assam</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:assam">
+      <data key="d0">entity</data>
+      <data key="d3">Assam</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:sa">
+      <data key="d0">entity</data>
+      <data key="d3">Sa</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:rahul_gandhi">
+      <data key="d0">entity</data>
+      <data key="d3">Rahul Gandhi</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:636636ddea6287e0a29bafea0a4d22a4">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Pregnant elephant found dead in Bandipur Tiger Reserve ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:bandipur_tiger_reserve">
+      <data key="d0">entity</data>
+      <data key="d3">Bandipur Tiger Reserve</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="article:e5143c69a4446cbbd9e3e2221ea2c755">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">VAO exam: KEA releases list of 5,000 candidates, marks scored to prove transparency VAO exam: KEA releases list of 5k candidates, marks scored ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:kea">
+      <data key="d0">entity</data>
+      <data key="d3">KEA</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:43267dc46d9a3e4a4086b76ac386863f">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">Belated Birthday Card That Sings the Apology: Tangy Limes Launches Two Happy Belated Video Ecards ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:tangy_limes">
+      <data key="d0">entity</data>
+      <data key="d3">Tangy Limes</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:defa9f795f6a569cdc6708760b1ff694">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">US midterms 2026: First polls close in Indiana, Kentucky; Trump calls it “big deal” .Reacting to the closing of polls in Kentucky, US President Donald Trump posted on Truth Social, "KENTUCKY CLOSING SOON. A BIG DEAL!" In a separate post, Trump criticised Fox News commentator Jessica Tarlov while reacting to the network's election coverage. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:donald_trump">
+      <data key="d0">entity</data>
+      <data key="d3">Donald Trump</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:truth_social">
+      <data key="d0">entity</data>
+      <data key="d3">Truth Social</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:kentucky">
+      <data key="d0">entity</data>
+      <data key="d3">KENTUCKY</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:fox_news">
+      <data key="d0">entity</data>
+      <data key="d3">Fox News</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:jessica_tarlov">
+      <data key="d0">entity</data>
+      <data key="d3">Jessica Tarlov</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:f02d82239293d55564c264c6e4860c1d">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">AMD shares jump 7% in extended trade after strong Q3 results, guidance, data center bet For the ongoing quarter, AMD expects $17 billion in revenue with a variation of 3% in either direction, comfortably higher than the average analyst estimate of $16.3 billion. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:amd">
+      <data key="d0">entity</data>
+      <data key="d3">AMD</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:1c34650b280b879447a1ef892f73638f">
+      <data key="d0">article</data>
+      <data key="d1">en</data>
+      <data key="d2">In Vvani by Vani Vats Shilpa wore a grey mirror work sari from Vvani by Vani Vats and while I like the color pick and she looked nice in the stitched sari, wish she had not sported that flashy clutch. But then, it is Shilpa we be talking about. Shilpa Shetty The post In Vvani by Vani Vats appeared first on High Heel Confidential. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:v">
+      <data key="d0">entity</data>
+      <data key="d3">V</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:per:vani_v">
+      <data key="d0">entity</data>
+      <data key="d3">Vani V</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:shi">
+      <data key="d0">entity</data>
+      <data key="d3">Shi</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:pa">
+      <data key="d0">entity</data>
+      <data key="d3">pa</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:shilpa_she">
+      <data key="d0">entity</data>
+      <data key="d3">Shilpa She</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:high_heel_con">
+      <data key="d0">entity</data>
+      <data key="d3">High Heel Con</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ial">
+      <data key="d0">entity</data>
+      <data key="d3">ial</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:048afcd46b2385612d3a85a0e365efcb">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">Sarbanand Sonowal ने पुरी में International Cruise Terminal बनाने का किया ऐलान पुरी, तीन नवंबर केंद्रीय पत्तन, पोत परिवहन और जलमार्ग मंत्री सर्बानंद सोनोवाल ने मंगलवार को पुरी में 1,500 करोड़ रुपये की अनुमानित लागत से एक अंतरराष्ट्रीय क्रूज टर्मिनल विकसित करने की घोषणा की। तटीय और क्रूज पोत परिवहन को मजबूत करने पर अपने मंत्रालय की सलाहकार समिति की बैठक की अध्यक्षता करते हुए उन्होंने कहा कि पारादीप पत्तन प्राधिकरण (पीपीए) ओडिशा सरकार के साथ साझेदारी में इस प्रस्तावित टर्मिनल को विकसित करेगा। इस दौरान सोनोवाल ने कहा कि सरकार का लक्ष्य 2047 तक भारत के माल परिवहन में तटीय और अंतर्देशीय जलमार्ग पोत-परिवहन की हिस्सेदारी को वर्तमान छह प्रतिशत से दोगुना करना और 2029 तक 10 लाख समुद्री क्रूज यात्रियों को आकर्षित करना है। ये लक्ष्य दो प्रस्तावित पहलों तटीय माल ढुलाई (कार्गो) प्रोत्साहन योजना और क्रूज भारत मिशन का हिस्सा हैं। उन्होंने कहा, प्रधानमंत्री नरेन्द्र मोदी के नेतृत्व में पिछले 12 वर्षों में भारत के समुद्री क्षेत्र में व्यापक बदलाव आए हैं। बैठक में पत्तन, पोत-परिवहन और जलमार्ग राज्य मंत्री शांतनु ठाकुर और आठ सांसदों ने भाग लिया। ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:प_र">
+      <data key="d0">entity</data>
+      <data key="d3">पुरी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:पत_तन_प_त_पर_वहन_और_जलम_र_ग">
+      <data key="d0">entity</data>
+      <data key="d3">पत्तन, पोत परिवहन और जलमार्ग</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:सर_ब_न_द_स_न_व_ल">
+      <data key="d0">entity</data>
+      <data key="d3">सर्बानंद सोनोवाल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:प_र_द_प_पत_तन_प_र_ध_करण">
+      <data key="d0">entity</data>
+      <data key="d3">पारादीप पत्तन प्राधिकरण</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:ओड_श">
+      <data key="d0">entity</data>
+      <data key="d3">ओडिशा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:सरक_र">
+      <data key="d0">entity</data>
+      <data key="d3">सरकार</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:न_व_ल">
+      <data key="d0">entity</data>
+      <data key="d3">नोवाल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:पर_वहन">
+      <data key="d0">entity</data>
+      <data key="d3">परिवहन</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:तट_य_म_ल_ढ_ल_ई_क_र_ग_प_र_त_स_हन_य_जन">
+      <data key="d0">entity</data>
+      <data key="d3">तटीय माल ढुलाई (कार्गो) प्रोत्साहन योजना</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:क_र_ज_भ_रत_म_शन">
+      <data key="d0">entity</data>
+      <data key="d3">क्रूज भारत मिशन</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:नर_न_द_र_म_द">
+      <data key="d0">entity</data>
+      <data key="d3">नरेन्द्र मोदी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:न_प_त_पर_वहन_और_जलम_र_ग">
+      <data key="d0">entity</data>
+      <data key="d3">न, पोत-परिवहन और जलमार्ग</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:श_तन_ठ_क_र">
+      <data key="d0">entity</data>
+      <data key="d3">शांतनु ठाकुर</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="article:14ce0ff99af1e68c50a62fd06085e02a">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">Silver Price Today 4 November 2026: 180000 से नीचे पहुंचा चांदी का दाम, जानिये देश के बड़े शहरों के ताजा रेट्स Silver Price Today 4 November 2026 | Aaj Ka Chandi Ka Bhav | Silver Rates Today: चांदी की कीमतों (Silver Rate Today) में भी लगातार बदलाव हो रहा है. चांद की कीमतों में फिर गिरावट हुई है. फिलहाल अंतरराष्ट्रीय बाजार में 49.73 डॉलर प्रति औंस हो गई, जबकि दिल्ली के सर्राफा बाजार में चांदी 2000 रुपये टूटकर 1,84,000 रुपये प्रति किलो (सभी टैक्स समेत) रह गई. गुडरिटर्न्स के मुताबिक चांदी की कीमत 2,00,000 रुपये किलो पर है. वहीं, मल्टी कमोडिटी एक्सचेंज (MCX) पर चांदी का वायदा रात तक 1.97% गिरकर यानी 3625 रुपये गिरावट के साथ 1,80,154 रुपये किलो हो गया. जबकि पिछले कारोबारी सत्र में चांदी 1,83,779 रुपये प्रति किलो पर बंद हुई थी. बुलियंस के मुताबिक चांदी की कीमत 1,80,870 रुपये किलो हो गई. यहां जानें देश के बड़े शहरों में चांदी के ताजा रेट्स शहर 1 किलो चांदी का भाव/रुपये दिल्ली 2,00,000 मुंबई कोलकाता चेन्नई पटना लखनऊ अलीगढ़ मेरठ अयोध्या कानपुर मुरादाबाद मिर्जापुर झांसी मथुरा गोरखपुर बरेली वाराणसी आगरा गाजियाबाद नोएडा गुरुग्राम जयपुर लुधियाना गुवाहाटी जलगांव इंदौर भोपाल अहमदाबाद वडोदरा सूरत पुणे नागपुर चंडीगढ़ नासिक बैंगलोर भुवनेश्वर कटक अमरावती विशाखापत्तनम मैसूर विजयवाड़ा कोयंबटूर मंगलौर मदुरै रायपुर बेलगाम राजमुंदरी हैदराबाद दावनगेरे बेल्लारी सलेम वेल्लोर गुंटूर नेल्लोर काकीनाडा तिरुपति कडपा अनंतपुर वारंगल निजामाबाद खम्मम बेरहामपुर राउरकेला राजकोट वसई-विरार औरंगाबाद सोलापुर भिवंडी कोल्हापुर लातूर तिरुपुर तिरुनेलवेली त्रिची संबलपुर इरोड कोच्चि थाइन अमृतसर नागरकोइल तिरुवनंतपुरम तंजावुर गोवा करूर कुंभकोणम नमक्कल धर्मपुरी डिंडीगुल तूतीकोरिन कुड्डालोर कांचीपुरम कृष्णागिरी विल्लुपुरम कोविलपट्टी तिरुवन्नामलाई होसुर कराइकुडी पुदुक्कोट्टई रामनाथपुरम अम्बुर कन्याकुमारी नागपट्टिनम विरुधुनगर कल्लाकुरिची पोलाची अर्काट पलानी अरियालूर मोहाली परमाकुदी पेरम्बलूर जयनकोंडम कोडईकनाल ऊटी रामेश्वरम शिवगंगा तिरुवरुर त्रिशूर पांडिचेरी चित्रदुर्ग गडग बागलकोट मंड्या भद्रावती कोलार तुमकुर कोल्लम अलाप्पुझा कोट्टायम पलक्कड़ मलप्पुरम ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:च_द">
+      <data key="d0">entity</data>
+      <data key="d3">चांदी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:च">
+      <data key="d0">entity</data>
+      <data key="d3">चा</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:द">
+      <data key="d0">entity</data>
+      <data key="d3">ंदी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:अ_तरर_ष_ट_र_य_ब_ज_र">
+      <data key="d0">entity</data>
+      <data key="d3">अंतरराष्ट्रीय बाजार</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:सर">
+      <data key="d0">entity</data>
+      <data key="d3">सर्</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:फ">
+      <data key="d0">entity</data>
+      <data key="d3">फा</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:मल_ट_कम_ड_ट_एक_सच_ज">
+      <data key="d0">entity</data>
+      <data key="d3">मल्टी कमोडिटी एक्सचेंज</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:म_बई">
+      <data key="d0">entity</data>
+      <data key="d3">मुंबई</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_लक_त">
+      <data key="d0">entity</data>
+      <data key="d3">कोलकाता</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:च_न_नई">
+      <data key="d0">entity</data>
+      <data key="d3">चेन्नई</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:लखनऊ">
+      <data key="d0">entity</data>
+      <data key="d3">लखनऊ</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:अल_गढ">
+      <data key="d0">entity</data>
+      <data key="d3">अलीगढ़</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:म_रठ">
+      <data key="d0">entity</data>
+      <data key="d3">मेरठ</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:अय_ध_य">
+      <data key="d0">entity</data>
+      <data key="d3">अयोध्या</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_नप_र">
+      <data key="d0">entity</data>
+      <data key="d3">कानपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:म_र_द_ब_द">
+      <data key="d0">entity</data>
+      <data key="d3">मुरादाबाद</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:म_र_ज_प_र">
+      <data key="d0">entity</data>
+      <data key="d3">मिर्जापुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:झ_स">
+      <data key="d0">entity</data>
+      <data key="d3">झांसी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:मथ_र">
+      <data key="d0">entity</data>
+      <data key="d3">मथुरा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:बर_ल">
+      <data key="d0">entity</data>
+      <data key="d3">बरेली</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:आगर">
+      <data key="d0">entity</data>
+      <data key="d3">आगरा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ग_ज_य_ब_द">
+      <data key="d0">entity</data>
+      <data key="d3">गाजियाबाद</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:न_एड">
+      <data key="d0">entity</data>
+      <data key="d3">नोएडा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ग_र_ग_र_म">
+      <data key="d0">entity</data>
+      <data key="d3">गुरुग्राम</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:जयप_र">
+      <data key="d0">entity</data>
+      <data key="d3">जयपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ल_ध_य_न">
+      <data key="d0">entity</data>
+      <data key="d3">लुधियाना</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ग_व_ह_ट">
+      <data key="d0">entity</data>
+      <data key="d3">गुवाहाटी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:जलग_व">
+      <data key="d0">entity</data>
+      <data key="d3">जलगांव</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:इ_द_र">
+      <data key="d0">entity</data>
+      <data key="d3">इंदौर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:भ_प_ल">
+      <data key="d0">entity</data>
+      <data key="d3">भोपाल</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:अहमद_ब_द">
+      <data key="d0">entity</data>
+      <data key="d3">अहमदाबाद</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:वड_दर">
+      <data key="d0">entity</data>
+      <data key="d3">वडोदरा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:प_ण">
+      <data key="d0">entity</data>
+      <data key="d3">पुणे</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:न_गप_र">
+      <data key="d0">entity</data>
+      <data key="d3">नागपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:च_ड_गढ">
+      <data key="d0">entity</data>
+      <data key="d3">चंडीगढ़</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:न_स_क">
+      <data key="d0">entity</data>
+      <data key="d3">नासिक</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ब_गल_र">
+      <data key="d0">entity</data>
+      <data key="d3">बैंगलोर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:भ_वन_श_वर_कटक">
+      <data key="d0">entity</data>
+      <data key="d3">भुवनेश्वर कटक</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:अमर_वत_व_श_ख_पत_तनम">
+      <data key="d0">entity</data>
+      <data key="d3">अमरावती विशाखापत्तनम</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:loc:म_स_र">
+      <data key="d0">entity</data>
+      <data key="d3">मैसूर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:व_जयव_ड">
+      <data key="d0">entity</data>
+      <data key="d3">विजयवाड़ा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_य_बट_र">
+      <data key="d0">entity</data>
+      <data key="d3">कोयंबटूर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:म_गल_र">
+      <data key="d0">entity</data>
+      <data key="d3">मंगलौर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:मद_र">
+      <data key="d0">entity</data>
+      <data key="d3">मदुरै</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ब_लग_म_र_जम_दर">
+      <data key="d0">entity</data>
+      <data key="d3">बेलगाम राजमुंदरी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ह_दर_ब_द">
+      <data key="d0">entity</data>
+      <data key="d3">हैदराबाद</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:द_वनग_र">
+      <data key="d0">entity</data>
+      <data key="d3">दावनगेरे</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ब_ल_ल_र_सल_म_व">
+      <data key="d0">entity</data>
+      <data key="d3">बेल्लारी सलेम वे</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:र">
+      <data key="d0">entity</data>
+      <data key="d3">र</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ग_ट_र_न_ल_ल_र">
+      <data key="d0">entity</data>
+      <data key="d3">गुंटूर नेल्लोर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_क_न_ड">
+      <data key="d0">entity</data>
+      <data key="d3">काकीनाडा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:त_र_पत_कडप">
+      <data key="d0">entity</data>
+      <data key="d3">तिरुपति कडपा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:अन_तप_र">
+      <data key="d0">entity</data>
+      <data key="d3">अनंतपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:व_र_गल">
+      <data key="d0">entity</data>
+      <data key="d3">वारंगल</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:न_ज_म_ब_द">
+      <data key="d0">entity</data>
+      <data key="d3">निजामाबाद</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ख">
+      <data key="d0">entity</data>
+      <data key="d3">ख</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:म">
+      <data key="d0">entity</data>
+      <data key="d3">म</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ब_रह_मप_र">
+      <data key="d0">entity</data>
+      <data key="d3">बेरहामपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:रक_ल">
+      <data key="d0">entity</data>
+      <data key="d3">रकेला</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:र_जक_ट">
+      <data key="d0">entity</data>
+      <data key="d3">राजकोट</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:वसई_व_र_र">
+      <data key="d0">entity</data>
+      <data key="d3">वसई-विरार</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:और_ग_ब_द">
+      <data key="d0">entity</data>
+      <data key="d3">औरंगाबाद</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:स_ल_प_र">
+      <data key="d0">entity</data>
+      <data key="d3">सोलापुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:भ_व_ड">
+      <data key="d0">entity</data>
+      <data key="d3">भिवंडी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_ल_ह_प_र">
+      <data key="d0">entity</data>
+      <data key="d3">कोल्हापुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ल_त_र">
+      <data key="d0">entity</data>
+      <data key="d3">लातूर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:त_र_प_र">
+      <data key="d0">entity</data>
+      <data key="d3">तिरुपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:व_ल">
+      <data key="d0">entity</data>
+      <data key="d3">वेली</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:त_र_च">
+      <data key="d0">entity</data>
+      <data key="d3">त्रिची</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:स_बलप_र">
+      <data key="d0">entity</data>
+      <data key="d3">संबलपुर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:इर_ड">
+      <data key="d0">entity</data>
+      <data key="d3">इरोड</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_च_च_थ_इन">
+      <data key="d0">entity</data>
+      <data key="d3">कोच्चि थाइन</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:अम_तसर">
+      <data key="d0">entity</data>
+      <data key="d3">अमृतसर</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:न_गरक_इल">
+      <data key="d0">entity</data>
+      <data key="d3">नागरकोइल</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:त">
+      <data key="d0">entity</data>
+      <data key="d3">ति</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:वन_तप_रम">
+      <data key="d0">entity</data>
+      <data key="d3">वनंतपुरम</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ग_व_कर">
+      <data key="d0">entity</data>
+      <data key="d3">गोवा करू</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ण">
+      <data key="d0">entity</data>
+      <data key="d3">ण</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:धर_मप_र">
+      <data key="d0">entity</data>
+      <data key="d3">धर्मपुरी</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_र_न">
+      <data key="d0">entity</data>
+      <data key="d3">कोरिन</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_च_प_रम">
+      <data key="d0">entity</data>
+      <data key="d3">कांचीपुरम</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:क_ष_ण">
+      <data key="d0">entity</data>
+      <data key="d3">कृष्ण</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="article:59439103ead7b9e5b58b68a89ccc6b2a">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">खातेगांव TI की हत्या से खुला शराब तस्करी का सिंडिकेट:थ्री लेयर सिक्योरिटी में गुजरात पहुंचती थी खेप, एक ट्रक से 10 लाख तक कमाई खातेगांव टीआई दिलीप पुरी को कुचलने वाला ट्रक अवैध शराब की खेप लेकर गुजरात जा रहा था। पुलिस जांच में सामने आया है कि इस तस्करी के तार हरदा से गुजरात तक फैले करोड़ों रुपए के सिंडिकेट से जुड़े थे। इसकी शुरुआत हरदा जिले के टिमरनी की तीन लाइसेंसी शराब दुकानों से होती थी। सोडलपुर रोड, हरदा रोड और रहटगांव स्थित इन दुकानों के लाइसेंस पाटेन्द्र जायसवाल के नाम पर थे, जबकि कारोबार चार पार्टनर मिलकर चला रहे थे। थ्री लेयर सिक्योरिटी में कागजों में वैध दिखने वाला शराब का स्टॉक कथित तौर पर अवैध तरीके से गुजरात भेजा जाता था। हर ट्रक पर 8 से 10 लाख रुपए की कमाई का गणित भी सामने आया है। पढ़िए पूरी रिपोर्ट… 4 पार्टनर चलाते थे सिंडिकेट, तय था कमाई का हिस्सा पुलिस जांच के मुताबिक, इस सिंडिकेट का मुख्य संचालक राहुल जायसवाल था। वह टिमरनी की दुकानों से शराब का स्टॉक उठाने, सप्लाई रूट तय करने और तस्करी से मिलने वाली रकम का हिसाब रखता था। पूरी रकम पहले राहुल के पास जमा होती थी। इसके बाद पार्टनर्स में बांटी जाती थी। राहुल, मनीष और मोहिन जायसवाल को 30-30% हिस्सा मिलता था, जबकि दुकानों के लाइसेंसधारक पाटेन्द्र जायसवाल को 10% दिया जाता था। 1,400 पेटियां शराब की खेप, एक ट्रक से 10 लाख तक मुनाफा खातेगांव में पकड़े गए ट्रक में करीब 1,400 पेटियां शराब लदी थीं। यह खेप टिमरनी की सोडलपुर रोड स्थित दुकान से लोड की गई थी। इसे देवास के रास्ते करीब 700 किलोमीटर दूर गुजरात पहुंचाया जाना था। शराब कारोबार से जुड़े लोगों के मुताबिक, गुजरात में शराब की मांग के चलते एक ट्रक की खेप सीमा पार पहुंचाने पर 8 से 10 लाख रुपए तक का मुनाफा होता था। इसकी वजह मध्यप्रदेश में खरीदी गई शराब को गुजरात के अवैध बाजार में कई गुना अधिक कीमत पर बेचना था। लाइसेंसी दुकानों से गुजरात तक ऐसे पहुंचती थी शराब आबकारी नियमों के मुताबिक, हर दुकान के लिए शराब के स्टॉक, बिक्री और परिवहन का क्षेत्र तय होता है। पुलिस जांच के अनुसार, सिंडिकेट के लोग दुकानों से वैध स्टॉक उठाकर कथित तौर पर फर्जी दस्तावेजों या बिना परमिट के उसे तय क्षेत्र से बाहर भेजते थे। रास्ते में पुलिस की जांच से बचने के लिए 3 लेयर का सुरक्षा तंत्र और मुखबिरों का नेटवर्क काम करता था। ट्रकों की पहचान छिपाने के लिए कई बार दूसरे सामान के परिवहन की आड़ ली जाती थी। 19 महीने पहले भी पकड़ी गई थी शराब की खेप टिमरनी की दुकानों से शराब तस्करी का मामला पहले भी सामने आ चुका है। करीब 19 महीने पहले, 1 मार्च को टिमरनी पुलिस ने इंदौर-बैतूल नेशनल हाईवे पर सुदामा होटल के पास एक ट्रक पकड़ा था। उसमें 23.60 लाख रुपए कीमत की गोवा व्हिस्की की 4,332 बोतलें (361 पेटियां) मिली थीं। उस मामले के तार भी टिमरनी से जुड़े थे। अब ताजा मामले में मिले 'बैच नंबर 025' ने एक बार फिर टिमरनी की दुकान को जांच के दायरे में ला दिया है। शराब तस्करी रोकने में आबकारी और पुलिस की चूक? टीआई की मौत और शराब तस्करी के इस मामले ने आबकारी और पुलिस विभाग की निगरानी व्यवस्था पर सवाल खड़े किए हैं। 13 आरोपी हिरासत में, टीआई के परिवार को 1 करोड़ की सहायता पुलिस ने टिमरनी की तीनों शराब दुकानों के लाइसेंस निलंबित कर उन्हें सील कर दिया है। मामले में अब तक 13 आरोपियों को हिरासत में लिया गया है। पुलिस महानिदेशक (DGP) उपेंद्र जैन के मुताबिक, शराब तस्करी नेटवर्क की पहचान कर ली गई है। शराब कहां से आई, कहां भेजी जा रही थी और इसमें कौन-कौन शामिल था, इसकी जानकारी पुलिस को मिल चुकी है। नेटवर्क से जुड़े अन्य लोगों तक पहुंचने के लिए जांच जारी है। इस मामले में हरदा के सहायक जिला आबकारी अधिकारी अमरसिंह बघेल और दो आरक्षकों अरुण कुम्बरे व कृष्णपाल सिंह डोडिया को निलंबित किया गया है। मुख्यमंत्री डॉ. मोहन यादव ने टीआई दिलीप पुरी की पत्नी को अनुकंपा नियुक्ति के तहत सब इंस्पेक्टर (SI) का पद और परिवार को 1 करोड़ रुपए की आर्थिक सहायता देने की घोषणा की है। ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:ट">
+      <data key="d0">entity</data>
+      <data key="d3">टी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:द_ल_प_प_र">
+      <data key="d0">entity</data>
+      <data key="d3">दिलीप पुरी</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:हरद">
+      <data key="d0">entity</data>
+      <data key="d3">हरदा</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:हरद_ज_ल">
+      <data key="d0">entity</data>
+      <data key="d3">हरदा जिले</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:स_ड">
+      <data key="d0">entity</data>
+      <data key="d3">सोड</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:प_र_र_ड">
+      <data key="d0">entity</data>
+      <data key="d3">पुर रोड</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:हरद_र_ड">
+      <data key="d0">entity</data>
+      <data key="d3">हरदा रोड</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:रह">
+      <data key="d0">entity</data>
+      <data key="d3">रह</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:ग_व">
+      <data key="d0">entity</data>
+      <data key="d3">गांव</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:per:प_ट_न_द_र_ज_यसव_ल">
+      <data key="d0">entity</data>
+      <data key="d3">पाटेन्द्र जायसवाल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:र_ह_ल_ज_यसव_ल">
+      <data key="d0">entity</data>
+      <data key="d3">राहुल जायसवाल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:र_ह_ल">
+      <data key="d0">entity</data>
+      <data key="d3">राहुल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:मन_ष">
+      <data key="d0">entity</data>
+      <data key="d3">मनीष</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:per:म_ह_न_ज_यसव_ल">
+      <data key="d0">entity</data>
+      <data key="d3">मोहिन जायसवाल</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:द_व_स">
+      <data key="d0">entity</data>
+      <data key="d3">देवास</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:loc:मध_यप_रद_श">
+      <data key="d0">entity</data>
+      <data key="d3">मध्यप्रदेश</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="article:941d8ca630c5b838ba8df2881c687f66">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">उम्र सिर्फ नंबर है! बुढ़ापे को मात दे रहा ये हैंडसम हंक, 31 साल पुराने 1 गाने पर तो आज भी मर-मिटती हैं लड़कियां फिटनेस की बात हो और मिलिंद सोमन का नाम न आए, ऐसा शायद ही कभी होता है. मॉडलिंग से लेकर फिल्मों तक अपनी पहचान बनाने वाले मिलिंद सोमन आज भी अपनी फिटनेस और शानदार स्टैमिना को लेकर सुर्खियों में रहते हैं. खास बात यह है कि 61 साल की उम्र में भी उनका जोश और खुद को फिट रखने का जुनून कम नहीं हुआ है.31 साल पहले आए उनके गाने मेड इन इंडिया में उनका लुक देखकर तो आज भी लड़कियां मर मिटती हैं. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:ह">
+      <data key="d0">entity</data>
+      <data key="d3">हैं</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:म_ल_द_स_मन">
+      <data key="d0">entity</data>
+      <data key="d3">मिलिंद सोमन</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:म_ड_इन_इ_ड_य">
+      <data key="d0">entity</data>
+      <data key="d3">मेड इन इंडिया</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:a9cde68f7c9b645df4f386000e37af31">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">Aaj Ka Love Rashifal, 4 November 2026: सिंह, मीन समेत 5 राशि वालों को रिलेशनशिप में सुखद पलों का होगा अनुभव, मकर समेत 3 राशि वाले संवाद से समस्या का समाधान निकालें! पढ़ें आज का लव राशिफल Aaj Ka Love Rashifal, 4 November 2026: आज 4 नवंबर दिन बुधवार के लव राशिफल के अनुसार, हर दिन प्रेम और रिश्तों के लिहाज से कुछ नया लेकर आता है. किसी राशि के जातकों के प्रेम जीवन में खुशियां आएंगी, तो किसी को अपने रिश्ते में सावधानी बरतने की जरूरत होगी. वहीं, कुछ राशि वालों को अपने साथी के साथ समय बिताने और आपसी समझ बढ़ाने का मौका मिलेगा. आइए जानते हैं मेष से मीन तक सभी 12 राशियों का आज का लव राशिफल. ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:स_ह">
+      <data key="d0">entity</data>
+      <data key="d3">सिंह</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:म_न">
+      <data key="d0">entity</data>
+      <data key="d3">मीन</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:मकर">
+      <data key="d0">entity</data>
+      <data key="d3">मकर</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:आज">
+      <data key="d0">entity</data>
+      <data key="d3">आज</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:लव_र_श_फल">
+      <data key="d0">entity</data>
+      <data key="d3">लव राशिफल</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:ब_धव_र">
+      <data key="d0">entity</data>
+      <data key="d3">बुधवार</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:d36ba8321c97a9c5dce5b193fb6dd2ae">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">सीआरपीएफ ने रचा नया रिकॉर्ड, एकa वर्ष में शून्य ऑपरेशनल मौत पर पीएम मोदी ने जताई खुशी केंद्रीय रिजर्व पुलिस बल (सीआरपीएफ) ने एक वर्ष तक किसी भी ऑपरेशनल मौत का मामला दर्ज नहीं होने का नया रिकॉर्ड दर्ज किया है। यह रिकॉर्ड 47 वर्षों बाद दोहराया गया है। प्रधानमंत्री ने सीआरपीएफ के इस रिकॉर्ड पर खुशी जाहिर की है। ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:क_द_र_य_र_जर_व_प_ल_स_बल">
+      <data key="d0">entity</data>
+      <data key="d3">केंद्रीय रिजर्व पुलिस बल</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:1ca3bd0e0e3dfe6e0a975eda6e809574">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">*सागर SP पद से हटाए गए IPS अनुराग सुजानिया का इस्तीफा* सागर के पूर्व एसपी और 2014 बैच के आईपीएस अफसर अनुराग सुजानिया ने मंगलवार को डीजीपी को अपना इस्तीफा सौंप दिया है. हालांकि, उनका इस्तीफा अभी मंजूर नहीं हुआ है. इसी घटनाक्रम के बीच, मंगलवार शाम को मुख्यमंत्री मोहन यादव ने वरिष्ठ पुलिस अधिकारियों के साथ सीएम हाउस में उच्चस्तरीय बैठक कर अवैध शराब पर […] ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:per:अन_र_ग_स_ज_न_य">
+      <data key="d0">entity</data>
+      <data key="d3">अनुराग सुजानिया</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:स">
+      <data key="d0">entity</data>
+      <data key="d3">स</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:per:म_हन_य_दव">
+      <data key="d0">entity</data>
+      <data key="d3">मोहन यादव</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:org:स_एम_ह_उस">
+      <data key="d0">entity</data>
+      <data key="d3">सीएम हाउस</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:8d679e4b5a58c9784010fe3c989e13b4">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">दैनिक अंक ज्योतिष (Dainik Ank Jyotish 4 November 2026): इन मूलांक वालों की किस्मत का ताला खोलेगी यह तारीख, होगा लाभ ही लाभ! Daily Numerology: आज पैसों के मामले में भी बिना सोचे-समझे हाथ बढ़ाने के बजाय अपने खर्चों को जांचना और बजट संभालना बहुत सही रहेगा. जन्मतिथि से जानते हैं, बाकी राशि वालों के लिए कैसा रहने वाला है दिन? ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:द_न_क_अ_क_ज_य_त_ष">
+      <data key="d0">entity</data>
+      <data key="d3">दैनिक अंक ज्योतिष</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:d52f014ae981517aa9516492a550f8ad">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">क्यों कुछ लोग हर किसी के पसंदीदा बन जाते हैं? विदुर नीति में छिपा है इसका जवाब क्यों कुछ लोग हर किसी के पसंदीदा बन जाते हैं? विदुर नीति में छिपा है इसका जवाब ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:org:व_द_र_न_त">
+      <data key="d0">entity</data>
+      <data key="d3">विदुर नीति</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="article:48da70da88587c7c93aa65163658cd15">
+      <data key="d0">article</data>
+      <data key="d1">hi</data>
+      <data key="d2">जल आपातकाल:अभी से इंदौर के 20 वार्ड रेड जोन में- टंकियां खाली, बोरिंग का दम फूला शहर में जल संकट शुरू हो गया है। 85 वार्डों में से 20 ऐसे हैं जहां अभी से पानी की आपूर्ति गड़बड़ाने लगी है। इनमें से जहां नर्मदा की सप्लाई है वहां टंकियां पूरी नहीं भरने की शिकायतें सामने आ रही हैं। जहां बोरिंग पर निर्भरता है वहां भूजल जल स्तर नीचे जाने से बोरवेलों की सांसें फूलने लगी हैं। ननि ने इन 20 वार्डों को रेड जोन मान लिया है, यहां पिछली गर्मियों में अप्रैल-मई में परेशानी आई थी। ननि ने इन 20 वार्डों में पानी की समस्या जानना शुरू कर दिया है। इसके लिए संबंधित वार्डों के पार्षदों से स्थिति की जानकारी ली जा रही है। ज्यादातर पार्षदों ने नए बोरिंग कराने, हाइड्रेंट बनाने, टैंकरों की संख्या बढ़ाने की मांग रखी। अमूमन सभी ने नर्मदा सप्लाई के लिए टंकियां 5 मी. तक भरने को कहा है। जिन वार्डों में नर्मदा लाइन नहीं है वहां लोग बोरिंग पर निर्भर हैं। कई जगह भूजल इतना नीचे जा चुका है कि 200 फीट तक के बोरिंग तो दम ही नहीं भर पा रहे। ये 20 वार्ड रेड जोन में 16, 18, 26, 30, 31, 33, 37, 43, 44, 45, 51, 54, 55, 64, 70, 75, 77, 79, 82 और 85 शामिल हैं। (इनमें से कई इलाकों में नर्मदा की लाइन नहीं है, वहां टैंकरों पर निर्भरता है। ) कहीं हाइड्रेंट भी सूखने लगे तो कहीं टैंकरों की संख्या कम पड़ रही वार्ड 54 4 माह से चार कॉलोनियों में गंदे पानी की समस्या है। पार्षद महेश बसवाल ने बताया कि एलएंडटी कंपनी अफसरों को शिकायत की, जवाब नहीं मिला। वार्ड 16 पूरी तरह नर्मदा-विहीन है। यहां दो हाइड्रेंट में से एक ही चालू रहता है। दूसरा सूख जाता है। बोरिंग कराने के बाद भी पानी नहीं मिल रहा। वार्ड 44 कुछ क्षेत्रों में पानी नहीं पहुंच रहा है। पार्षद ने बताया कि वार्ड में 108 बोरिंग हैं। पिछली गर्मी में इनमें से केवल 30 ही चालू थे। वार्ड 77, वार्ड 79 न्यू रानी बाग, आशीष नगर, आयुषी फार्म हाउस नर्मदा-विहीन हैं। भावना नगर, मछली फार्म, जीत नगर में नलकूप से पानी दिया जाता है। वार्ड 36 करीब 50 फीसदी क्षेत्र में नर्मदा पानी की सप्लाई नहीं है। यहां भूजल स्तर भी कम है। टैंकरों से सप्लाई पर निर्भरता है। लोगों को परेशानी का सामना करना पड़ रहा है। वार्ड 37 नर्मदा-विहीन क्षेत्र ज्यादा हैं, टैंकरों की संख्या कम है। हाईराइज इमारतों में भी पानी की समस्या है। टंकियों को ज्यादा भरने की मांग की गई। गर्मी में यहां हंगामे, प्रदर्शन हुए थे। वार्ड 55 नाथ मंदिर और राव राजा पार्क में डायरेक्ट सप्लाई से पानी आता है। शेड्यूल गड़बड़ होने पर इन दोनों क्षेत्रों में दिक्कत होती है। पिछली गर्मी में 18 बोरिंग बंद थे। वार्ड 82 पिछली गर्मी में सबसे ज्यादा 17 टैंकर दिए गए थे। टंकियां नहीं भर पाती हैं। श्रीराम नगर, गुरु शंकर, गोंदवले धाम से सिरपुर तालाब तक की बसाहट नर्मदा-विहीन है। जहां पिछले साल जल संकट था, वहां समस्याएं पूछ रहे एमआईसी सदस्य अभिषेक शर्मा ने बताया कि पिछली गर्मी में जिन वार्डों से सबसे ज्यादा जल संकट की शिकायतें आई थीं, वहां के पार्षदों से समस्याएं और जरूरतें पूछी जा रही हैं। उद्देश्य है कि गर्मी में संकट बढ़ने से पहले ही जरूरी इंतजाम किए जाएं। ONLY AVAILABLE IN PAID PLANS</data>
+    </node>
+    <node id="entity:loc:र_ड_ज">
+      <data key="d0">entity</data>
+      <data key="d3">रेड जो</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:नर_मद">
+      <data key="d0">entity</data>
+      <data key="d3">नर्मदा</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:न">
+      <data key="d0">entity</data>
+      <data key="d3">न</data>
+      <data key="d4">PER</data>
+    </node>
+    <node id="entity:loc:र_ड_ज_न">
+      <data key="d0">entity</data>
+      <data key="d3">रेड जोन</data>
+      <data key="d4">LOC</data>
+    </node>
+    <node id="entity:org:नर_म">
+      <data key="d0">entity</data>
+      <data key="d3">नर्म</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:न">
+      <data key="d0">entity</data>
+      <data key="d3">न</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:org:द">
+      <data key="d0">entity</data>
+      <data key="d3">दा</data>
+      <data key="d4">ORG</data>
+    </node>
+    <node id="entity:per:मह_श_बसव_ल">
+      <data key="d0">entity</data>
+      <data key="d3">महेश बसवाल</data>
+      <data key="d4">PER</data>
+    </node>
+    <edge source="article:article_1" target="entity:org:tata_motors">
+      <data key="d6">MENTIONS</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="article:article_1" target="entity:loc:gujarat">
+      <data key="d6">MENTIONS</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="article:article_1" target="event:factory:article:article_1">
+      <data key="d6">REPORTS_ON</data>
+      <data key="d8">article:article_1</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="entity:org:tata_motors" target="event:factory:article:article_1">
+      <data key="d6">ANNOUNCED</data>
+      <data key="d8">article:article_1</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="entity:org:tata_motors" target="event:factory:article:article_2">
+      <data key="d6">ANNOUNCED</data>
+      <data key="d8">article:article_2</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="event:factory:article:article_1" target="entity:loc:gujarat">
+      <data key="d6">LOCATED_IN</data>
+      <data key="d8">article:article_1</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="article:article_2" target="entity:org:tata_motors">
+      <data key="d6">MENTIONS</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="article:article_2" target="entity:loc:gujarat">
+      <data key="d6">MENTIONS</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="article:article_2" target="event:factory:article:article_2">
+      <data key="d6">REPORTS_ON</data>
+      <data key="d8">article:article_2</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="event:factory:article:article_2" target="entity:loc:gujarat">
+      <data key="d6">LOCATED_IN</data>
+      <data key="d8">article:article_2</data>
+      <data key="d7">0</data>
+    </edge>
+    <edge source="article:article_3" target="entity:org:tata_motors">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:article_3" target="entity:loc:gujarat">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:2e124fea5d534725fa4c6a51bf6532b9" target="entity:per:solomon">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:2e124fea5d534725fa4c6a51bf6532b9" target="entity:loc:germany">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:2e124fea5d534725fa4c6a51bf6532b9" target="entity:loc:canada">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:2e124fea5d534725fa4c6a51bf6532b9" target="entity:loc:berlin">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:2e124fea5d534725fa4c6a51bf6532b9" target="entity:org:berlin">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:2e124fea5d534725fa4c6a51bf6532b9" target="entity:org:cbnc">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:db3cd5d11a45b24c423ddd42ab37811f" target="entity:loc:indiana">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:db3cd5d11a45b24c423ddd42ab37811f" target="entity:loc:kentucky">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:db3cd5d11a45b24c423ddd42ab37811f" target="entity:per:trump">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:db3cd5d11a45b24c423ddd42ab37811f" target="entity:org:cnn_tv_news18">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:per:ollie_watkins">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:per:ellie">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:loc:uk">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:loc:saudi_arabia">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:loc:aston_villa">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:loc:al_hilal">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:loc:britain">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:per:watkins">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ebf73356bccbbd035b8d607c89f092dd" target="entity:loc:riyadh">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:06c58f44e9d2faae6b507fd82b1a9601" target="entity:loc:us">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:06c58f44e9d2faae6b507fd82b1a9601" target="entity:loc:iran">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:06c58f44e9d2faae6b507fd82b1a9601" target="entity:per:trump">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:06c58f44e9d2faae6b507fd82b1a9601" target="entity:org:ft">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b8e3aa49bf7cad86318f83f8ce69f579" target="entity:org:booking_holdings">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b8e3aa49bf7cad86318f83f8ce69f579" target="entity:org:sec">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:c0c493f4fafbd2a6751cb8b530ccf499" target="entity:org:mixedbread">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:c0c493f4fafbd2a6751cb8b530ccf499" target="entity:per:aamir_shakir">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:e599d4664e17e0ea867c2e0879f32d51" target="entity:org:saba_capital_management">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:e599d4664e17e0ea867c2e0879f32d51" target="entity:org:gabelli_healthcare_trust">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ec15c85f6a0029d6465b878992e3254c" target="entity:org:roku">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ec15c85f6a0029d6465b878992e3254c" target="entity:per:neil_hunt">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:3a4ae9df23b265c17716d40b1c1a7807" target="entity:org:punjab_police">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:3c4b2af5187d86391668c2a8f4b86493" target="entity:org:finanshels_pairs_ai">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:3c4b2af5187d86391668c2a8f4b86493" target="entity:loc:uae">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:र_जस_थ_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:ट_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:श_र_ग_ग_नगर_ज_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:अन_प">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:गढ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:स_रत">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:प_स">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:ट_र_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:आईब">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:स_आईड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:ए_ट_ट_र_र_स_ट_स_क_व_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:per:स_र_द_र_क_म_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:नगर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:per:श_कर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:per:र_म_प_रत_प">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:गढ_ज">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:स_रतगढ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:ढ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:प_क_स_त_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:loc:र_वल_म_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:व_स_फ_ट">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:ज_ग_न_प">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:cdc0fbecf5beeee762fffa7ea1776160" target="entity:org:म">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:50b865f8662f5f9ebeae1dafcf3bba9a" target="entity:loc:ड_ग">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:50b865f8662f5f9ebeae1dafcf3bba9a" target="entity:loc:र_जस_थ_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:50b865f8662f5f9ebeae1dafcf3bba9a" target="entity:org:श_र_न_थ_ज_म_द_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:50b865f8662f5f9ebeae1dafcf3bba9a" target="entity:org:भ_रत_य">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:50b865f8662f5f9ebeae1dafcf3bba9a" target="entity:org:प_रक_त_प_र_म">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:874a2772f89073c76c730a825cf9446e" target="entity:org:ट_र_र_श_फल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:874a2772f89073c76c730a825cf9446e" target="entity:org:म_ष_ट_र_र_श_फल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:874a2772f89073c76c730a825cf9446e" target="entity:org:ट_र_क_र_ड_स">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:8c4be5be77ff31aad8ead14e6868b348" target="entity:loc:द_ल_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:8c4be5be77ff31aad8ead14e6868b348" target="entity:loc:अ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:8c4be5be77ff31aad8ead14e6868b348" target="entity:loc:क">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:8c4be5be77ff31aad8ead14e6868b348" target="entity:loc:भ_रत">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:8c4be5be77ff31aad8ead14e6868b348" target="entity:org:स_वद_श_एआई_म_डल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:8c4be5be77ff31aad8ead14e6868b348" target="entity:loc:अम_र_क">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:per:अम_त_ज">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:org:जनत_क_ग_र_स_छत_त_सगढ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:per:अम_त_ज_ग">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:per:प_एम_म_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:org:च_न_व">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:per:ज_ञ_न_श_क_म_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:org:भ_रत_य_जनत_प_र_ट">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:loc:र_यप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:per:ग">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:per:र_ज_श_म_णत">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:org:जग_ग_हत_य_क_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:77499cae904b24e65352d19b56c4a493" target="entity:per:अज_त_ज_ग">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5d1e4a314352634c796ef4093e9b3e5" target="entity:per:अख_ल_श_य_दव">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5d1e4a314352634c796ef4093e9b3e5" target="entity:org:व_ध_नसभ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5d1e4a314352634c796ef4093e9b3e5" target="entity:org:सम_जव_द_प_र_ट">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5d1e4a314352634c796ef4093e9b3e5" target="entity:loc:व_र_णस">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5d1e4a314352634c796ef4093e9b3e5" target="entity:loc:क_श">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ab5ee9393164df65996432a85098685e" target="entity:org:द_प_वल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ab5ee9393164df65996432a85098685e" target="entity:loc:पटन">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:ab5ee9393164df65996432a85098685e" target="entity:org:सर_र_फ_स_घ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:4dc134f19e20e271799d8be821399675" target="entity:per:र_त_भ_द_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:4dc134f19e20e271799d8be821399675" target="entity:per:र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:भ_जप_र_ष_ट_र_य_अध_यक_ष">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:loc:ग_रखप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:प">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:भ_जप">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:ल_कत_त_र_बच_ओ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:अर_जकत_हट_ओ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:र_ष_ट_र_य">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:अध_यक_ष">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:न_त_न_नव_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:म_ख_यम_त_र_य_ग_आद_त_यन_थ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:प_रद_श">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:प_कज_च_धर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:मह_र_ण_प_रत_प_इ_टर_क_ल_ज">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:loc:ग_लघर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:क_ल_म_द_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:सर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:वल_लभभ_ई_पट_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:पट_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:loc:भ_जप">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:एमप_इ_टर_क_ल_ज">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:ल_कत_त_र_बच_ओ_अर_जकत_हट_ओ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:म_ख_यम_त_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:य_ग_आद_त_यन_थ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:loc:ग_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:घर_क_ल_म_द_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:सरद_र_पट_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:र_ष_ट_र_य_अध_यक_ष">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:प_रद_श_अध_यक_ष">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:म">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:org:म_च">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:87dabb9ad572dbbe46e80b7a4bdf6bec" target="entity:per:व_न_द_र_य">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:0f643db45db10bdbf7aa5b64014df82a" target="entity:loc:अम_र_क">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:0f643db45db10bdbf7aa5b64014df82a" target="entity:org:म_डटर_म_च_न_व">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:0f643db45db10bdbf7aa5b64014df82a" target="entity:loc:भ_रत">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:0f643db45db10bdbf7aa5b64014df82a" target="entity:org:म_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:0f643db45db10bdbf7aa5b64014df82a" target="entity:org:र_म_च_न_व">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:0f643db45db10bdbf7aa5b64014df82a" target="entity:org:भ_रत_य">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:0f643db45db10bdbf7aa5b64014df82a" target="entity:org:ड_क_मतपत_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:36ede2a72fde1ccdcaf0880558eab738" target="entity:org:pune_metro_line">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a0daa56fff9e131813b8412320e55e16" target="entity:org:amgen">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a0daa56fff9e131813b8412320e55e16" target="entity:org:prolia">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a0daa56fff9e131813b8412320e55e16" target="entity:org:xgeva">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5a10d7b33e989148d64287f8254df79" target="entity:org:bjp">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5a10d7b33e989148d64287f8254df79" target="entity:loc:assam">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5a10d7b33e989148d64287f8254df79" target="entity:org:assam">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5a10d7b33e989148d64287f8254df79" target="entity:per:sa">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:b5a10d7b33e989148d64287f8254df79" target="entity:per:rahul_gandhi">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:636636ddea6287e0a29bafea0a4d22a4" target="entity:loc:bandipur_tiger_reserve">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:e5143c69a4446cbbd9e3e2221ea2c755" target="entity:org:kea">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:43267dc46d9a3e4a4086b76ac386863f" target="entity:org:tangy_limes">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:loc:us">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:loc:indiana">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:loc:kentucky">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:per:trump">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:per:donald_trump">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:org:truth_social">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:org:kentucky">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:org:fox_news">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:defa9f795f6a569cdc6708760b1ff694" target="entity:per:jessica_tarlov">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:f02d82239293d55564c264c6e4860c1d" target="entity:org:amd">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1c34650b280b879447a1ef892f73638f" target="entity:loc:v">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1c34650b280b879447a1ef892f73638f" target="entity:per:vani_v">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1c34650b280b879447a1ef892f73638f" target="entity:per:shi">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1c34650b280b879447a1ef892f73638f" target="entity:per:pa">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1c34650b280b879447a1ef892f73638f" target="entity:per:shilpa_she">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1c34650b280b879447a1ef892f73638f" target="entity:org:high_heel_con">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1c34650b280b879447a1ef892f73638f" target="entity:org:ial">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:loc:प_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:org:पत_तन_प_त_पर_वहन_और_जलम_र_ग">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:per:सर_ब_न_द_स_न_व_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:org:प_र_द_प_पत_तन_प_र_ध_करण">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:loc:ओड_श">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:org:सरक_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:per:न_व_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:loc:भ_रत">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:org:पर_वहन">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:org:तट_य_म_ल_ढ_ल_ई_क_र_ग_प_र_त_स_हन_य_जन">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:org:क_र_ज_भ_रत_म_शन">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:per:नर_न_द_र_म_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:org:न_प_त_पर_वहन_और_जलम_र_ग">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:048afcd46b2385612d3a85a0e365efcb" target="entity:per:श_तन_ठ_क_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:च_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:org:च">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:org:अ_तरर_ष_ट_र_य_ब_ज_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:द_ल_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:org:सर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:org:फ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:org:मल_ट_कम_ड_ट_एक_सच_ज">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:म_बई">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_लक_त">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:च_न_नई">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:पटन">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:लखनऊ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:अल_गढ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:म_रठ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:अय_ध_य">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_नप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:म_र_द_ब_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:म_र_ज_प_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:झ_स">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:मथ_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ग_रखप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:बर_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:व_र_णस">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:आगर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ग_ज_य_ब_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:न_एड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ग_र_ग_र_म">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:जयप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ल_ध_य_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ग_व_ह_ट">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:जलग_व">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:इ_द_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:भ_प_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:अहमद_ब_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:वड_दर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:स_रत">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:प_ण">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:न_गप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:च_ड_गढ">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:न_स_क">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ब_गल_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:भ_वन_श_वर_कटक">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:org:अमर_वत_व_श_ख_पत_तनम">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:म_स_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:व_जयव_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_य_बट_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:म_गल_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:मद_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:र_यप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ब_लग_म_र_जम_दर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ह_दर_ब_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:द_वनग_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ब_ल_ल_र_सल_म_व">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ग_ट_र_न_ल_ल_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_क_न_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:त_र_पत_कडप">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:अन_तप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:व_र_गल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:न_ज_म_ब_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ख">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:म">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ब_रह_मप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:रक_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:र_जक_ट">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:वसई_व_र_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:और_ग_ब_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:स_ल_प_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:भ_व_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_ल_ह_प_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ल_त_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:त_र_प_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:व_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:त_र_च">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:स_बलप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:इर_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_च_च_थ_इन">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:अम_तसर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:न_गरक_इल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:त">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:वन_तप_रम">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ग_व_कर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ण">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:धर_मप_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:ग_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_र_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_च_प_रम">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:14ce0ff99af1e68c50a62fd06085e02a" target="entity:loc:क_ष_ण">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:gujarat">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:per:ट">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:per:द_ल_प_प_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:हरद">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:हरद_ज_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:स_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:प_र_र_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:हरद_र_ड">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:रह">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:ग_व">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:per:प_ट_न_द_र_ज_यसव_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:per:र_ह_ल_ज_यसव_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:per:र_ह_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:per:मन_ष">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:per:म_ह_न_ज_यसव_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:प_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:द_व_स">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:59439103ead7b9e5b58b68a89ccc6b2a" target="entity:loc:मध_यप_रद_श">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:941d8ca630c5b838ba8df2881c687f66" target="entity:org:ह">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:941d8ca630c5b838ba8df2881c687f66" target="entity:per:म_ल_द_स_मन">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:941d8ca630c5b838ba8df2881c687f66" target="entity:org:म_ड_इन_इ_ड_य">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a9cde68f7c9b645df4f386000e37af31" target="entity:org:स_ह">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a9cde68f7c9b645df4f386000e37af31" target="entity:org:म_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a9cde68f7c9b645df4f386000e37af31" target="entity:org:मकर">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a9cde68f7c9b645df4f386000e37af31" target="entity:org:आज">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a9cde68f7c9b645df4f386000e37af31" target="entity:org:लव_र_श_फल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a9cde68f7c9b645df4f386000e37af31" target="entity:org:ब_धव_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:a9cde68f7c9b645df4f386000e37af31" target="entity:org:म">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:d36ba8321c97a9c5dce5b193fb6dd2ae" target="entity:per:प_एम_म_द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:d36ba8321c97a9c5dce5b193fb6dd2ae" target="entity:org:क_द_र_य_र_जर_व_प_ल_स_बल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1ca3bd0e0e3dfe6e0a975eda6e809574" target="entity:per:अन_र_ग_स_ज_न_य">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1ca3bd0e0e3dfe6e0a975eda6e809574" target="entity:loc:स">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1ca3bd0e0e3dfe6e0a975eda6e809574" target="entity:per:म_हन_य_दव">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:1ca3bd0e0e3dfe6e0a975eda6e809574" target="entity:org:स_एम_ह_उस">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:8d679e4b5a58c9784010fe3c989e13b4" target="entity:org:द_न_क_अ_क_ज_य_त_ष">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:d52f014ae981517aa9516492a550f8ad" target="entity:org:व_द_र_न_त">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:loc:इ_द_र">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:loc:र_ड_ज">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:org:नर_मद">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:per:न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:loc:र_ड_ज_न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:org:नर_म">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:org:न">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:org:द">
+      <data key="d6">MENTIONS</data>
+    </edge>
+    <edge source="article:48da70da88587c7c93aa65163658cd15" target="entity:per:मह_श_बसव_ल">
+      <data key="d6">MENTIONS</data>
+    </edge>
+  </graph>
+</graphml>

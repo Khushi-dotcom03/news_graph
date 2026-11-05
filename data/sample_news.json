@@ -1,0 +1,18 @@
+
+[
+  {
+    "id": "article_1",
+    "language": "en",
+    "text": "Tata Motors announced a new factory in Gujarat."
+  },
+  {
+    "id": "article_2",
+    "language": "hi",
+    "text": "टाटा मोटर्स ने गुजरात में एक नए कारखाने की घोषणा की।"
+  },
+  {
+    "id": "article_3",
+    "language": "en",
+    "text": "Tata Motors opened a new office in Gujarat."
+  }
+]

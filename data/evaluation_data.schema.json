@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NEWSGRAPH AI manual evaluation annotations",
+  "type": "object",
+  "required": ["schema_version", "ner_examples", "relation_examples"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "ner_examples": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/nerExample"}
+    },
+    "relation_examples": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/relationExample"}
+    }
+  },
+  "$defs": {
+    "language": {"enum": ["en", "hi"]},
+    "entityType": {"enum": ["PER", "ORG", "LOC"]},
+    "entity": {
+      "type": "object",
+      "required": ["text", "type"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "type": {"$ref": "#/$defs/entityType"}
+      },
+      "additionalProperties": false
+    },
+    "endpoint": {
+      "oneOf": [
+        {"$ref": "#/$defs/entity"},
+        {
+          "type": "object",
+          "required": ["type", "event_type"],
+          "properties": {
+            "type": {"const": "EVENT"},
+            "event_type": {"type": "string", "minLength": 1}
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "nerExample": {
+      "type": "object",
+      "required": ["id", "language", "text", "entities"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "language": {"$ref": "#/$defs/language"},
+        "text": {"type": "string", "minLength": 1},
+        "entities": {"type": "array", "items": {"$ref": "#/$defs/entity"}}
+      },
+      "additionalProperties": false
+    },
+    "relation": {
+      "type": "object",
+      "required": ["subject", "predicate", "object"],
+      "properties": {
+        "subject": {"$ref": "#/$defs/endpoint"},
+        "predicate": {"type": "string", "minLength": 1},
+        "object": {"$ref": "#/$defs/endpoint"},
+        "evidence": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "relationExample": {
+      "type": "object",
+      "required": ["id", "language", "text", "entities", "relations"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "language": {"$ref": "#/$defs/language"},
+        "text": {"type": "string", "minLength": 1},
+        "entities": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+        "relations": {"type": "array", "items": {"$ref": "#/$defs/relation"}}
+      },
+      "additionalProperties": false
+    }
+  }
+}
